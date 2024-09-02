@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="--editorTheme3-blockText: #000000; --editorTheme3-inputColor: #FFFFFF; --editorTheme3-inputColor-text: #575e75; --editorTheme3-motion-primary: #ffffff; --editorTheme3-motion-secondary: #e4f0ff; --editorTheme3-motion-tertiary: #4C97FF; --editorTheme3-motion-field-background: #d2e5ff; --editorTheme3-looks-primary: #ffffff; --editorTheme3-looks-secondary: #f0e8ff; --editorTheme3-looks-tertiary: #9966FF; --editorTheme3-looks-field-background: #e5d9ff; --editorTheme3-sounds-primary: #ffffff; --editorTheme3-sounds-secondary: #f8e8f8; --editorTheme3-sounds-tertiary: #CF63CF; --editorTheme3-sounds-field-background: #f3d8f3; --editorTheme3-control-primary: #ffffff; --editorTheme3-control-secondary: #fff2dd; --editorTheme3-control-tertiary: #FFAB19; --editorTheme3-control-field-background: #ffeac5; --editorTheme3-event-primary: #ffffff; --editorTheme3-event-secondary: #fff5d9; --editorTheme3-event-tertiary: #FFBF00; --editorTheme3-event-field-background: #ffefbf; --editorTheme3-sensing-primary: #ffffff; --editorTheme3-sensing-secondary: #e7f3f9; --editorTheme3-sensing-tertiary: #5CB1D6; --editorTheme3-sensing-field-background: #d6ebf5; --editorTheme3-pen-primary: #ffffff; --editorTheme3-pen-secondary: #fddbdb; --editorTheme3-pen-tertiary: #f40b0b; --editorTheme3-pen-field-background: #fcc2c2; --editorTheme3-operators-primary: #ffffff; --editorTheme3-operators-secondary: #e6f6e6; --editorTheme3-operators-tertiary: #59C059; --editorTheme3-operators-field-background: #d5efd5; --editorTheme3-data-primary: #ffffff; --editorTheme3-data-secondary: #ffeedd; --editorTheme3-data-tertiary: #FF8C1A; --editorTheme3-data-field-background: #ffe2c6; --editorTheme3-data_lists-primary: #ffffff; --editorTheme3-data_lists-secondary: #ffe8dd; --editorTheme3-data_lists-tertiary: #FF661A; --editorTheme3-data_lists-field-background: #ffd9c6; --editorTheme3-more-primary: #ffffff; --editorTheme3-more-secondary: #ffe8ec; --editorTheme3-more-tertiary: #FF6680; --editorTheme3-more-field-background: #ffd9df; --editorTheme3-addons-primary: #ffffff; --editorTheme3-addons-secondary: #dff5f4; --editorTheme3-addons-tertiary: #29BEB8; --editorTheme3-addons-field-background: #c9efed; --editorTheme3-motionColor: #4C97FF; --editorTheme3-looksColor: #9966FF; --editorTheme3-soundsColor: #CF63CF; --editorTheme3-eventsColor: #FFBF00; --editorTheme3-controlColor: #FFAB19; --editorTheme3-sensingColor: #5CB1D6; --editorTheme3-operatorsColor: #59C059; --editorTheme3-dataColor: #FF8C1A; --editorTheme3-dataListsColor: #FF661A; --editorTheme3-customColor: #FF6680; --editorTheme3-PenColor: #f40b0b; --editorTheme3-saColor: #29BEB8; --editorTheme3-commentColor: #aeac9e; --editorTheme3-text: colorOnWhite; --editorTheme3-commentText: #575e75; --editorTheme3-commentTextTransparent: rgba(0, 0, 0, 0.50); --editorTheme3-commentBorder: #7a786fff;"><style xmlns="http://www.w3.org/1999/xhtml">
+    .blocklyText {
+        fill: #000000;
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 12pt;
+        font-weight: 500;
+    }
+    .blocklyNonEditableText&gt;text, .blocklyEditableText&gt;text {
+        fill: #575e75;
+    }
+    .blocklyDropdownText {
+        fill: #000000 !important;
+    }
+    .blocklyDropDownDiv .goog-menuitem-highlight,
+.blocklyDropDownDiv .goog-menuitem-hover,
+.sa-contextmenu-colored .blocklyContextMenu .goog-menuitem-highlight {
+  background-color: var(--editorTheme3-hoveredItem, rgba(0, 0, 0, 0.2));
+}
+
+.scratchCommentRect {
+  fill: var(--editorTheme3-commentColor);
+}
+.scratchCommentBody,
+.scratchCommentTextarea {
+  background-color: var(--editorTheme3-commentColor);
+}
+.scratchWorkspaceCommentBorder {
+  stroke: var(--editorTheme3-commentBorder);
+}
+.scratchCommentTextarea::placeholder {
+  color: var(--editorTheme3-commentTextTransparent);
+}
+.scratchCommentText {
+  fill: var(--editorTheme3-commentText);
+  color: var(--editorTheme3-commentText);
+}
+/* block-palette-icons */
+.scratchCategoryItemBubble::after {
+  filter: brightness(0);
+  opacity: 0.6;
+}
+
+.u-dropdown-searchbar,
+.u-dropdown-searchbar:focus,
+.blocklyDropDownDiv .goog-menuitem,
+.blocklyNumPadButton {
+  color: #575e75;
+}
+.u-dropdown-searchbar:focus {
+  background-color: var(--editorTheme3-hoveredItem);
+}
+
+.scratchCommentRect {
+  fill: #feffff;
+}
+.scratchCommentBody,
+.scratchCommentTextarea {
+  background-color: #ffffff;
+}
+.scratchWorkspaceCommentBorder {
+  stroke: var(--editorTheme3-commentColor);
+}
+.scratchCommentTextarea::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.scratchCommentText {
+  fill: #575e75;
+  color: #575e75;
+}
+
+/* Compatibility */
+
+.sa-block-color {
+  --sa-block-colored-background: var(--sa-block-background-secondary);
+  --sa-block-colored-background-secondary: var(--sa-block-field-background);
+  --sa-block-bright-background: var(--sa-block-background-tertiary);
+  --sa-block-text: var(--sa-block-background-tertiary, black);
+  --sa-block-gray-text: #575e75;
+  --sa-block-colored-text: var(--sa-block-background-tertiary, black);
+  --sa-block-text-on-bright-background: white;
+}
+</style><g data-id="N7q.9X33B-QYZMGmvGy$" class="blocklyDraggable blocklySelected" data-shapes="stack end" transform="translate(0,0) scale(1)"><path class="blocklyPath blocklyBlockBackground" stroke="#FF6680" fill="#ffffff" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4c 1,-1 2,-2 4,-2 H 147.98611068725586 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 4 a 4,4 0 0,1 -4,-4 z"/><g data-id="GQ[im1^9lbC(lR=8{E;E" data-argument-type="text" data-shapes="argument round" transform="translate(48,8)"><path class="blocklyPath blocklyBlockBackground" stroke="#FF6680" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 24 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"/><g class="blocklyEditableText" transform="translate(8, 0) " style="cursor: text;"><text class="blocklyText" x="12" y="18" dominant-baseline="middle" dy="0" text-anchor="middle"> </text></g><g><g/></g></g><path class="blocklyPath" style="visibility: hidden" d="" fill="#fcc2c2"/><text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="23.99305534362793" transform="translate(96, 24) " style="fill: rgb(255, 102, 128);">を返す</text><g><g/></g></g></svg>
